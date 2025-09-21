@@ -1,0 +1,36 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: red;
+}
+
+.header {
+    background: black;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav-link {
+    color: white;
+}
+
+.main {
+    color: white;
+    padding: 30px;
+}
